@@ -1,0 +1,45 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+#header{
+    text-align: center;
+    padding-left: 375px;
+    background-color: #21325a;
+    color: white;
+}
+form {
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+}
+.divHead{
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    background-color: lightgray;
+    margin:0px;
+    padding: 10px;
+}
+.form-group{
+    margin: 10px;
+}
+.custom-select{
+    margin: 10px;
+    width: 1085px;
+}
+#numLabel{
+    margin: 10px;
+}
+.btn{
+    background-color: white;
+    font-size: 15px;
+    margin: 20px;
+}
+#holder{
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+}
